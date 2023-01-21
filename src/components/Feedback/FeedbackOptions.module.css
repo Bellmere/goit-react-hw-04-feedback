@@ -1,0 +1,45 @@
+.feedBack__container {
+    margin:  60px auto;
+}
+
+.feedBackTitle {
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 0 auto 40px;
+}
+
+.feedBackList {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 40px;
+    padding: 0;
+}
+
+.feedBackItem {
+    padding: 0;
+    display: flex;
+}
+
+.feedBackItem:not(:last-child) {
+    margin-right: 20px;
+}
+
+.feedBackBtn {
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.4;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 4px;
+    cursor: pointer;
+
+    transition: background-color 300ms linear;
+}
+
+.feedBackBtn:hover {
+    background-color: aqua;
+}
